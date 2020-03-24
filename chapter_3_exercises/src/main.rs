@@ -17,6 +17,11 @@ fn main() {
     println!("50th Fibonacci number (fast) is {}", fib50);
 
     twelve_days_of_christmas();
+
+    // String playtime
+    let mut s = String::from("hello");
+    s.push_str(" hello!");
+
 }
 
 fn convert_to_celsius(f: f64) -> f64 {
